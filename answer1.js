@@ -7,4 +7,4 @@
 function formatMoney(num) {
   return "$" + num.toFixed(2);
 }
-console.log(formatMoney(39.99));
+console.log(formatMoney(39.99)); // $39.99

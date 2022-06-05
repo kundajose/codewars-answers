@@ -12,7 +12,7 @@ function descendingOrder(n) {
       .join("")
   );
 }
-console.log(descendingOrder(42145));
+console.log(descendingOrder(42145)); // 54421
 // or
 // function descendingOrder(n) {
 //   return parseInt(String(n).split("").sort().reverse().join(""));

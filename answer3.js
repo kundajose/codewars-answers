@@ -4,7 +4,7 @@
 function SeriesSum(n) {
   return n.reduce((a, b) => a + b);
 }
-console.log(SeriesSum([1, 1 / 4]));
+console.log(SeriesSum([1, 1 / 4])); // 1.25
 
 // or
 // function SeriesSum(n) {
